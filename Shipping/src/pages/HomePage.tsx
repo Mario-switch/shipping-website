@@ -73,7 +73,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
         style={{ minHeight: '580px' }}
       >
         <div
-  className="absolute inset-0 bg-cover bg-center opacity-50"
+  className="absolute inset-0 bg-cover bg-center sm:bg-contain md:bg-cover lg:bg-cover opacity-30"
   
   style={{
     backgroundImage: `url(${HeroImage})`,
@@ -81,7 +81,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
 />
    <div className="absolute inset-0 bg-gradient-to-r from-gray-900/30 via-gray-900/20 to-transparent" />
 
-        <div className="relative max-w-7xl mx-auto px-4 py-20 md:py-28 z-10">
+        <div className="relative max-w-7xl mx-auto px-4 py-16 md:py-28 z-10">
           <div className="max-w-xl">
             <div className="inline-flex items-center gap-2 bg-[#FF6200]/20 border border-[#FF6200]/30 rounded-full px-4 py-1.5 mb-6">
               <Zap size={14} className="text-[#FF6200]" />
